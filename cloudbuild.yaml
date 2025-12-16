@@ -1,3 +1,8 @@
+serviceAccount: 537691785227-compute@developer.gserviceaccount.com
+
+options:
+  logging: CLOUD_LOGGING_ONLY
+
 steps:
 #Build the container images:
 - name: "gcr.io/cloud-builders/docker"
